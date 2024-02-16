@@ -35,7 +35,7 @@ body {
     border: 1px solid rgb(223, 130, 130)
 }
 
-.links {
+.sidebar-links {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -46,7 +46,7 @@ body {
     border: 1px solid rgb(223, 130, 130)
 }
 
-.links li {
+.sidebar-links li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +74,10 @@ body {
     height: 90%;
 
     border: 1px solid rgb(223, 130, 130)
+}
+
+canvas {
+    border: 1px solid red;
 }
 
 .secondary-section {
