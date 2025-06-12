@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.main-container {
+  min-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+}
+
+.canvas-container {
+  width: 50vw;
+  height: 50vh;
+  background-color: rgb(184, 184, 184);
+}
