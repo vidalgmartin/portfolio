@@ -8,18 +8,18 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-// user secrets config
-builder.Configuration
-    .AddJsonFile("appsettings.json")
-    .AddUserSecrets<Program>()
-    .AddEnvironmentVariables();
-
 builder.Services.AddDbContext<ServerDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     )
 );
+
+// user secrets config
+builder.Configuration
+    .AddJsonFile("appsettings.json")
+    .AddUserSecrets<Program>()
+    .AddEnvironmentVariables();
 
 var app = builder.Build();
 

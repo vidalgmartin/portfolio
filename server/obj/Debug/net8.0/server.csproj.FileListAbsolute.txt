@@ -101,3 +101,4 @@ C:\Users\Vidal\Code\Portfolio\server\obj\Debug\net8.0\refint\server.dll
 C:\Users\Vidal\Code\Portfolio\server\obj\Debug\net8.0\server.pdb
 C:\Users\Vidal\Code\Portfolio\server\obj\Debug\net8.0\server.genruntimeconfig.cache
 C:\Users\Vidal\Code\Portfolio\server\obj\Debug\net8.0\ref\server.dll
+C:\Users\Vidal\Code\Portfolio\server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
